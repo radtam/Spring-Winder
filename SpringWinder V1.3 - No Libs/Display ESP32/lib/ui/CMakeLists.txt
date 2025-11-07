@@ -1,0 +1,11 @@
+SET(SOURCES ui_comp_imgbutton2.c
+    ui_comp.c
+    ui_Screen1.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    ui_img_blue_button_png.c
+    ui_img_up_button_png.c)
+
+add_library(ui ${SOURCES})
