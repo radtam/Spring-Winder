@@ -263,26 +263,16 @@ void AddCalibrationValue() {
 
 void CalibrateLCPreSet()
 {
-   	CalibValuesMatrix[0] = {0.00, 269166.19};
-    CalibValuesMatrix[1] = {2.46, 132047.00};
-    CalibValuesMatrix[2] = {4.00, 137892.59};
-    CalibValuesMatrix[3] = {6.20, 137636.00};
-    CalibValuesMatrix[4] = {8.08, 137963.59};
-    CalibValuesMatrix[5] = {10.05, 146626.41};
-    CalibValuesMatrix[6] = {12.00, 157260.59};
-    CalibValuesMatrix[7] = {14.31, 180112.59};
-    CalibValuesMatrix[8] = {16.36, 183836.20};
-    CalibValuesMatrix[9] = {18.40, 194280.80};
-	// CalibValuesMatrix[0] = {0.00, 42484.60};
-    // CalibValuesMatrix[1] = {9.75, 283636.41};
-    // CalibValuesMatrix[2] = {9.90, 288517.59};
-    // CalibValuesMatrix[3] = {10.30, 299100.41};
-    // CalibValuesMatrix[4] = {10.71, 309657.00};
-    // CalibValuesMatrix[5] = {12.27, 348070.59};
-    // CalibValuesMatrix[6] = {15.09, 417649.81};
-    // CalibValuesMatrix[7] = {18.00, 490064.59};
-    // CalibValuesMatrix[8] = {21.70, 586401.19};
-    // CalibValuesMatrix[9] = {26.80, 715813.00};
+	CalibValuesMatrix[0] = {0.00, 42484.60};
+    CalibValuesMatrix[1] = {9.75, 283636.41};
+    CalibValuesMatrix[2] = {9.90, 288517.59};
+    CalibValuesMatrix[3] = {10.30, 299100.41};
+    CalibValuesMatrix[4] = {10.71, 309657.00};
+    CalibValuesMatrix[5] = {12.27, 348070.59};
+    CalibValuesMatrix[6] = {15.09, 417649.81};
+    CalibValuesMatrix[7] = {18.00, 490064.59};
+    CalibValuesMatrix[8] = {21.70, 586401.19};
+    CalibValuesMatrix[9] = {26.80, 715813.00};
      Serial.println("Preset calibration values loaded:");
     PrintMatrix();
     ApplyCalibration(); // instantly apply to HX711_MP
@@ -661,4 +651,5 @@ void setup() {
 void loop() {
   // Unused. All work in tasks.
 }
+
 
